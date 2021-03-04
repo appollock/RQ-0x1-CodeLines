@@ -7,7 +7,7 @@ ______ _____         ______       _____                 _
 \_| \_\____/\___\___/|___/ \___|  \_/\_\\__,_|\___||___/\__|
 ```
 
-# 0x1 CODE LINES
+# FINAL 0x1 CODE LINES
 
 > Counting lines of code in any language is not as easy as it looks at a first glance. Consider different indentation (whitespaces or tabulators), line or block comments and line breaks specific to given platform. For instance, the following should return 3 lines of code (one for function opening body, second one for the Console method call and the last one for the curly brace closing function's body):
 > 
