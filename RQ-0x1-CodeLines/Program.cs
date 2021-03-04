@@ -14,6 +14,9 @@ namespace RQ_0x1_CodeLines
             bool fileExists = File.Exists(args[0]);
             if (fileExists)
             {
+                SourceCodeController controller = new SourceCodeController();
+                int loc = controller.CountCodeLines(controller.ReadContent(args[0]));
+                Console.WriteLine($"Lines of code: {loc}");
                 return 0;
             }
             else return 1;
