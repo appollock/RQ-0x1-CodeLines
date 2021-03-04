@@ -51,9 +51,16 @@
   <ItemGroup>
     <Compile Include="ProgramTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SourceCodeControllerTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RQ-0x1-CodeLines\RQ-0x1-CodeLines.csproj">
+      <Project>{a97e8e54-a946-4909-813b-cd2b792bd80c}</Project>
+      <Name>RQ-0x1-CodeLines</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
